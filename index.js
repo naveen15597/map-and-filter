@@ -7,12 +7,12 @@ const names= [
     {name:"Bahubali",gender:"Male"},
 ];
 
-console.log("Female students ",names.filter((val)=> val.gender==="Female")
+console.log("Female students = ",names.filter((val)=> val.gender==="Female")
 .map((val=> val.name)));
 
-console.log("Students Names starting with A",names.filter((val)=> val.name.toLowerCase().charAt(0)=='a').map((val=>val.name)));
+console.log("Students Names starting with A = ",names.filter((val)=> val.name.toLowerCase().charAt(0)=='a').map((val=>val.name)));
 
-console.log("Count of Male students ",names.filter((val)=> val.gender=='Male').map((val)=>val.name).length);
+console.log("Count of Male students = ",names.filter((val)=> val.gender=='Male').map((val)=>val.name).length);
 
 
 
