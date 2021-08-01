@@ -7,6 +7,8 @@ const names= [
     {name:"Bahubali",gender:"Male"},
 ];
 
+console.log("List of students = ",names);
+
 console.log("Female students = ",names.filter((val)=> val.gender==="Female")
 .map((val=> val.name)));
 
